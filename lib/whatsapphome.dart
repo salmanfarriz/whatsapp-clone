@@ -27,7 +27,7 @@ class _WhatsappHomeState extends State<WhatsappHome>
       child: Scaffold(
         appBar: AppBar(
           backgroundColor: const Color(0xFF00796b),
-          title: const Text('Whatsapp'),
+          title: const Text('facebook'),
           actions: [
             Row(
               children: [
