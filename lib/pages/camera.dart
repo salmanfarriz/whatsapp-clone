@@ -27,6 +27,7 @@ class _CameraState extends State<Camera> {
       children: [
         Container(
           width: MediaQuery.of(context).size.width,
+          height: MediaQuery.of(context).size.height,
           child: FutureBuilder(
             future: _cameraValue,
             builder: (context, snapshot) {

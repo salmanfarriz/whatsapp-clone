@@ -7,9 +7,9 @@ class Chatpage extends StatelessWidget {
 
   List<Chat> chatList = [
     Chat(
-      avatar:'',
-          // 'https://icones.pro/wp-content/uploads/2021/03/avatar-de-personne-icone-homme.png',
-      name: 'Babu',
+      avatar:
+      'https://icones.pro/wp-content/uploads/2021/03/avatar-de-personne-icone-homme.png',
+      name: 'Annu',
       isGroup: false,
       updatedAt: '10.12 am',
       message: 'Hello babu...',
@@ -31,8 +31,8 @@ class Chatpage extends StatelessWidget {
       message: 'Hello...',
     ),
     Chat(
-      avatar:'',
-          // 'https://www.nicepng.com/png/detail/131-1318812_avatar-group-icon.png',
+      avatar: '',
+      // 'https://www.nicepng.com/png/detail/131-1318812_avatar-group-icon.png',
       name: 'malappuram',
       isGroup: true,
       updatedAt: '1.12 am',
@@ -45,7 +45,40 @@ class Chatpage extends StatelessWidget {
       isGroup: false,
       updatedAt: '5.12 am',
       message: 'hi...',
-    )
+    ),
+    Chat(
+      avatar:
+          'https://i.zoomtventertainment.com/story/KGF_Yash.jpeg',
+      name: 'Rocky',
+      isGroup: false,
+      updatedAt: '6.12 am',
+      message: 'hi am here...',
+    ),
+    Chat(
+      avatar:
+          'https://www.koimoi.com/wp-content/new-galleries/2022/02/allu-arjun-spoofing-south-cinema-in-new-zomato-advertisement-displeases-his-fans-heres-how-they-reacted-001.jpg',
+      name: 'Allu',
+      isGroup: false,
+      updatedAt: '8.15 am',
+      message: 'Pushpaa...'
+    ),
+    Chat(
+      avatar:
+          'https://static.toiimg.com/thumb/msid-90044561,width-900,height-1200,resizemode-6.cms',
+      name: 'Yash',
+      isGroup: false,
+      updatedAt: '6.12 am',
+      message: 'koiiiii...',
+    ),
+    Chat(
+      avatar:
+          'https://www.koimoi.com/wp-content/new-galleries/2022/02/allu-arjun-spoofing-south-cinema-in-new-zomato-advertisement-displeases-his-fans-heres-how-they-reacted-001.jpg',
+      name: 'Surya',
+      isGroup: false,
+      updatedAt: '10.15 am',
+      message: 'hooooooooooooooo...'
+    ),
+    
   ];
 
   @override

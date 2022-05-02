@@ -59,16 +59,26 @@ class Statuspage extends StatelessWidget {
           ),
         ],
       ),
-      body: Column(
+      body: Column(                                                   
         children: [
-          ListTile(
-            leading: CircleAvatar(
-              backgroundColor: Colors.amber,
-            ),
-            title: Text('My Status'),
-            subtitle: Text(
-              'Tap to add status updates',
-              style: TextStyle(fontSize: 12),
+          InkWell(
+            onTap: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => Camera(),
+                ),
+              );
+            },
+            child: ListTile(
+              leading: CircleAvatar(
+                backgroundImage: AssetImage('assets/images/mi logo.jpg') ,
+              ),
+              title: Text('My Status'),
+              subtitle: Text(
+                'Tap to add status updates',
+                style: TextStyle(fontSize: 12),
+              ),
             ),
           ),
           Row(

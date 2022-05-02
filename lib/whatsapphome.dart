@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:whatsappclone/pages/callpage.dart';
 import 'package:whatsappclone/pages/camera.dart';
 import 'package:whatsappclone/pages/chatpage.dart';
 import 'package:whatsappclone/pages/statuspage.dart';
@@ -80,7 +81,7 @@ class _WhatsappHomeState extends State<WhatsappHome>
             Camera(),
             Chatpage(),
             Statuspage(),
-            Text('Calls'),
+            Callpage(),
           ],
           controller: tab_Controller,
         ),
